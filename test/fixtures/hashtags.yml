@@ -1,0 +1,13 @@
+active:
+  name: active
+  hashtaggable: default (InstagramIdentity)
+  auto_like_on: true
+  auto_follow_on: true
+
+default:
+  name: test
+  hashtaggable: default (InstagramIdentity)
+
+other:
+  name: other
+  hashtaggable: other (InstagramIdentity)

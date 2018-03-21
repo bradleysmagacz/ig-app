@@ -1,0 +1,50 @@
+last_year:
+  num_media: 100
+  num_follows: 125
+  num_followed_by: 150
+  num_likes_received: 200
+  num_likes_sent: 250
+  num_comments_received: 300
+  num_comments_sent: 350
+  stattable: default (InstagramIdentity)
+  created_at: <%= Time.zone.now.beginning_of_day - 1.year %>
+
+last_month:
+  num_media: 50
+  num_follows: 60
+  num_followed_by: 75
+  num_likes_received: 100
+  num_likes_sent: 125
+  num_comments_received: 150
+  stattable: default (InstagramIdentity)
+  created_at: <%= Time.zone.now.beginning_of_day - 1.month %>
+
+last_week:
+  num_media: 5000000000
+  num_follows: 50000000
+  num_followed_by: 5000000
+  num_likes_received: 5000000
+  num_likes_sent: 50000000
+  num_comments_received: 500000000
+  stattable: default (InstagramIdentity)
+  created_at: <%= Time.zone.now.beginning_of_day - 1.week %>
+
+yesterday:
+  num_media: 1320
+  num_follows: 420
+  num_followed_by: 3410
+  num_likes_received: 4040
+  num_likes_sent: 40458
+  num_comments_received: 328403
+  stattable: default (InstagramIdentity)
+  created_at: <%= Time.zone.now.beginning_of_day - 1.day %>
+
+today:
+  num_media: 1322
+  num_follows: 425
+  num_followed_by: 3450
+  num_likes_received: 39393
+  num_likes_sent: 2
+  num_comments_received: 30382
+  stattable: default (InstagramIdentity)
+  created_at: <%= Time.zone.now.beginning_of_day %>

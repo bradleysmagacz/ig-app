@@ -1,0 +1,119 @@
+$break-small: 600px
+$break-medium: 1000px
+
+$primary-color: #729B79
+$secondary-color: #BACDB0
+$negative-color: #F3E8EE
+$accent-color: #475B63
+$accent-text-color: #AFAFAF
+$background-color: #2E2C2F
+
+html, body
+  margin: 0
+  padding: 0,
+  font-family: 'Josefin Sans', serif!important
+
+a
+  color: $negative-color
+  text-decoration: none
+
+.box 
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+  .space-between 
+    justify-content: space-between
+
+    .right 
+      display: inline-block
+      margin-left: auto
+      float: right
+
+.icon-box
+  @extend .box
+  margin-bottom: 15px
+
+.btn-container
+  margin: 30px
+
+.btn  
+  height: 30px
+  border-radius: 15px
+  background-color: $primary-color
+  padding: 15px
+  color: $negative-color
+  cursor: pointer
+
+#background-header
+  height: 596px
+  background-color: $background-color
+  background-image: url("background-header.jpg")
+  background-size: cover
+  background-position: bottom
+  background-repeat: no-repeat
+
+  @media screen and (max-width: $break-small)
+    height: 200px
+
+  h1
+    color: $negative-color
+
+#header
+  background-color: $negative-color
+  height: 61px
+
+  .space-between
+    width: 100%
+
+#how-it-works
+  padding: 15px
+  background-color: $negative-color
+
+  @media screen and (max-width: $break-small)
+    height: 100px
+
+  .title
+    margin: 42px 0 47px 0
+    font-size: 50px
+
+  .step
+    height: 100px
+    width: 350px
+    display: inline-block
+
+    @media screen and (max-width: $break-medium)
+      width: 25%
+
+    .text-wrapper
+      height: 50% 
+      margin: auto
+
+    p
+      margin: auto
+      height: 100px
+      width: 80%
+      text-align: center
+  
+  #get-started
+    h2
+      font-size: 24px
+
+    .get-started
+      height: auto
+
+#footer
+  height: 43px
+  background-color: $accent-text-color
+
+  .links
+    padding: 13px 0
+
+    .link
+      display: inline-block
+      margin: auto 6px
+      font-size: 13px
+
+      &:hover
+        text-decoration: underline

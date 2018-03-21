@@ -1,0 +1,8 @@
+#header.box
+  .space-between
+    = link_to image_tag('/images/logo.png'), root_path, class: 'logo'
+    .right
+      - if user_signed_in?
+        = link_to 'Logout', api_v1_user_path, method: :delete
+      - else
+        = link_to '<span class="fa fa-instagram"></span> Sign in with Instagram'.html_safe, oauth_authorize_path, class: 'btn btn-block btn-social btn-twitter'

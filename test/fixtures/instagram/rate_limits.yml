@@ -1,0 +1,24 @@
+global:
+  slug: global
+  hourly_limit: 500
+  identifiable: default (InstagramIdentity)
+
+recent_media:
+  slug: /tags/tag-name/media/recent
+  hourly_limit: 30
+  identifiable: default (InstagramIdentity)
+
+comments:
+  slug: /media/media-id/comments
+  hourly_limit: 30
+  identifiable: default (InstagramIdentity)
+
+likes:
+  slug: /media/media-id/likes
+  hourly_limit: 30
+  identifiable: default (InstagramIdentity)
+
+relationships:
+  slug: /users/user-id/relationships
+  hourly_limit: 30
+  identifiable: default (InstagramIdentity)

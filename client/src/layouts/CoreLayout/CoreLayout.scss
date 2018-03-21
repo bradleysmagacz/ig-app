@@ -1,0 +1,11 @@
+.core-layout__viewport {
+  padding-top: 4rem;
+}
+
+.bg {
+  background: #ff5c5c; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #ff5c5c 0%, #fe9090 55%, #febbbb 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #ff5c5c 0%,#fe9090 55%,#febbbb 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ff5c5c 0%,#fe9090 55%,#febbbb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5c5c', endColorstr='#febbbb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

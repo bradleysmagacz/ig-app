@@ -1,0 +1,9 @@
+default:
+  user: instagram_identity
+  api_id: 1234
+  token: default
+
+other:
+  user: default
+  api_id: 532
+  token: other 

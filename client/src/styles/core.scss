@@ -1,0 +1,31 @@
+@import 'base';
+@import '~normalize.css/normalize';
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Josefin+Slab');
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Josefin Sans', serif!important;
+}
+
+button, input, label, span, strong, div {
+  font-family: 'Josefin Sans', serif!important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
